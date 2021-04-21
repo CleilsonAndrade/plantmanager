@@ -1,6 +1,6 @@
 <div align="center">
     <h1 align="center">Plant Manager</h1>
-    <img src="./design/design.png" alt="Logo" width="600">
+    <img src="./design/design.png" alt="Logo" width="800">
 </div>
 
 <br>
