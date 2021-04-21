@@ -26,13 +26,13 @@ Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada 
 
 ## Features:
 - Em construção...
-- [] UI/UX Design
+<!-- - [] UI/UX Design
 - [] Cadastro de usuário
 - [] Cadastro de plantas
 - [] Dicas de cuidado por planta
 - [] Agendamento de cuidados por horário
 - [] Listagem de plantas salvas
-- [] Requisições e respotas de API
+- [] Requisições e respotas de API -->
 
 # Techs: 
 - JavaScript
@@ -59,7 +59,7 @@ Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada 
 - Red: #E83F5B<br>
 
 ## Tipo de fonte:
-- Poppins
+
 
 # Instalação:
 Clone este repositório:<br>
