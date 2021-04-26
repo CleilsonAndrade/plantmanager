@@ -17,6 +17,7 @@
 * [Design](#design)
   * [Cores](#cores)
   * [Tipo de fonte](#tipo-de-fonte)
+  * [Pacote de ícones](#pacote-de-ícones)
 * [Instalação](#instalação)
 * [Links Contato](#links-contato)
 * [Licença](#licença)
@@ -28,6 +29,7 @@ Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada 
 - Em construção...
 <!-- - [] UI/UX Design
 - [] Cadastro de usuário
+- [] Validação de usuário
 - [] Cadastro de plantas
 - [] Dicas de cuidado por planta
 - [] Agendamento de cuidados por horário
@@ -38,6 +40,13 @@ Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada 
 - JavaScript
 - TypeScript
 - React Native
+- Expo
+<!-- - Expo Vector Icons
+- React Navigation
+- axios
+- JSON-Server
+- Expo LottieFiles
+- Expo AsyncStorage -->
 
 # Design:
 - O modelo final para mobile está disponível na pasta `./design`
@@ -59,12 +68,19 @@ Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada 
 - Red: #E83F5B<br>
 
 ## Tipo de fonte:
+- Jost: 600Semi-bold, Regular 400
 
+## Pacote de ícones:
+- Feather
 
 # Instalação:
 Clone este repositório:<br>
 `git clone https://github.com/CleilsonAndrade/plantmanager.git`<br>
-`cd ./plantmanager`
+`cd ./plantmanager`<br>
+Abra o terminal:<br>
+`npm install`<br>
+`json-server ./src/services/server.json --host 192.168.1.8 --port 3333 -d 700`<br>
+`expo start`<br>
 
 # Links Contato
 - Linkedin: https://www.linkedin.com/in/cleilson-andrade/<br>
