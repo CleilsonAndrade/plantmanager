@@ -1,5 +1,5 @@
 <div align="center">
-    <h1 align="center">Plant Manager</h1>
+    <h1 align="center">PlantManager</h1>
     <img src="./design/design.png" alt="Logo" width="800">
 </div>
 
@@ -78,7 +78,7 @@ Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada 
 # Instalação:
 Clone este repositório:<br>
 `git clone https://github.com/CleilsonAndrade/plantmanager.git`<br>
-`cd ./plantmanager`<br><br>
+`cd ./plantmanager`<br>
 
 Abra o terminal:<br>
 `npm install --global expo-cli`<br>
