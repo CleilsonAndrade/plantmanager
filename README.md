@@ -76,12 +76,14 @@ Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada 
 - Feather
 
 # Instalação:
+Abra o terminal e instale o expo-cli:<br>
+`npm install --global expo-cli`<br>
+
 Clone este repositório:<br>
 `git clone https://github.com/CleilsonAndrade/plantmanager.git`<br>
 `cd ./plantmanager`<br>
 
-Abra o terminal:<br>
-`npm install --global expo-cli`<br>
+Instale as dependências, inicie o servidor da API e inicie o servidor de desenvolvimento:
 `npm install`<br>
 `json-server ./src/services/server.json --host 192.168.1.8 --port 3333 -d 700`<br>
 `expo start`<br>
