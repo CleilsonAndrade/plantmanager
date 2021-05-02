@@ -3,17 +3,12 @@
     <img src="./design/design.png" alt="Logo" width="800">
 </div>
 
-<br>
-<h2 align="center">
-  🚧  🚀 Em construção...  🚧
-</h2>
-<br>
-
 ## Índice
 
 * [Descrição](#descrição)
 * [Features](#features) 
 * [Techs](#techs)
+  * [Libs](#Libs)
 * [Design](#design)
   * [Cores](#cores)
   * [Tipo de fonte](#tipo-de-fonte)
@@ -26,31 +21,38 @@
 Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada pela <a href="https://github.com/Rocketseat">@Rocketseat</a>
 
 ## Features:
-- Em construção...
-<!-- - [] UI/UX Design
-- [] Cadastro de usuário
-- [] Validação de usuário
-- [] Cadastro de plantas
-- [] Dicas de cuidado por planta
-- [] Agendamento de cuidados por horário
-- [] Listagem de plantas salvas
-- [] Requisições e respotas de API -->
+- [x] UI/UX Design
+- [x] Cadastro de usuário
+- [x] Validação de usuário
+- [x] Cadastro de plantas
+- [x] Salvamento local
+- [x] Dicas de cuidado por planta
+- [x] Agendamento de cuidados por horário
+- [x] Listagem de plantas salvas
+- [x] Notificações para cuidado das plantas
+- [x] Requisições e respotas de API
 
-# Techs: 
+## Techs: 
 - JavaScript
 - TypeScript
 - React Native
 - Expo
-<!-- - Expo Vector Icons
-- React Navigation
+
+# Libs:
 - axios
 - JSON-Server
+- date-fns
+- React Navigation
+- Expo Fonts
+- Expo Vector Icons
 - Expo LottieFiles
-- Expo AsyncStorage -->
+- Expo DateTimePicker
+- Expo AsyncStorage
+- Expo Notifications
 
 # Design:
-- O modelo final para mobile está disponível na pasta `./design`
-- Imagens disponíveis na pasta `./assets`<br>
+- O modelo final para mobile está disponível na pasta `./design`<br>
+- Imagens disponíveis na pasta `./assets` e `./src/assets`<br>
 
 ## Cores:
 - Green: #32B768<br>
@@ -76,8 +78,10 @@ Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada 
 # Instalação:
 Clone este repositório:<br>
 `git clone https://github.com/CleilsonAndrade/plantmanager.git`<br>
-`cd ./plantmanager`<br>
+`cd ./plantmanager`<br><br>
+
 Abra o terminal:<br>
+`npm install --global expo-cli`<br>
 `npm install`<br>
 `json-server ./src/services/server.json --host 192.168.1.8 --port 3333 -d 700`<br>
 `expo start`<br>
