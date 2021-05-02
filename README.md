@@ -32,13 +32,13 @@ Aplicação de gerenciamento de plantas, desenvolvida durante a NLW#5 realizada 
 - [x] Notificações para cuidado das plantas
 - [x] Requisições e respotas de API
 
-## Techs: 
+# Techs: 
 - JavaScript
 - TypeScript
 - React Native
 - Expo
 
-# Libs:
+## Libs:
 - axios
 - JSON-Server
 - date-fns
