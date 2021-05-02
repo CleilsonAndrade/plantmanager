@@ -83,7 +83,7 @@ Clone este repositório:<br>
 `git clone https://github.com/CleilsonAndrade/plantmanager.git`<br>
 `cd ./plantmanager`<br>
 
-Instale as dependências, inicie o servidor da API e inicie o servidor de desenvolvimento:
+Instale as dependências, inicie o servidor da API e inicie o servidor de desenvolvimento:<br>
 `npm install`<br>
 `json-server ./src/services/server.json --host 192.168.1.8 --port 3333 -d 700`<br>
 `expo start`<br>
