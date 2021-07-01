@@ -71,7 +71,7 @@ Aplicação de gerenciamento de plantas mobile, desenvolvida durante a **NLW#5**
 - Red: #E83F5B<br>
 
 ## Tipo de fonte:
-- **Jost:** 600Semi-bold, Regular 400
+- **Jost:** Regular 400, Semi-bold 600, 
 
 ## Pacote de ícones:
 - **Feather**
